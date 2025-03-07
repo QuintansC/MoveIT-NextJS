@@ -1,0 +1,26 @@
+.header{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.title{
+    background-color: black;
+    height: 100px;
+}
+
+.links{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 1400px) {
+    .header{
+        text-align: center;
+        min-width: 300px;
+    } 
+}
